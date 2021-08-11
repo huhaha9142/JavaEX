@@ -1,4 +1,4 @@
-package com.javaex.jdbc.oracle;
+package com.javaex.jdbc.oracle.dao;
 
 //	VO 객체
 //	- 처리 로직을 갖지 않는다

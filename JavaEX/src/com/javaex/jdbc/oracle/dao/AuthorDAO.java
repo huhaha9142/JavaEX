@@ -1,4 +1,4 @@
-package com.javaex.jdbc.oracle;
+package com.javaex.jdbc.oracle.dao;
 
 import java.util.List;
 
