@@ -1,4 +1,4 @@
-package com.javaex.api.arrarys;
+package com.javaex.api.wrapper;
 
 public class WrapperEx {
 
@@ -37,5 +37,6 @@ public class WrapperEx {
 		System.out.println("값의 비교:" + i3.equals(i4));	//	내부 값의 비교
 		System.out.println("언박싱 비교:" + (i3.intValue() == i4.intValue()));
 	}
+
 
 }
