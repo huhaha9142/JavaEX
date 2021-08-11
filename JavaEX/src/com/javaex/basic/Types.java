@@ -1,14 +1,33 @@
 package com.javaex.basic;
 
 public class Types {
+	static final int SPEED_LIMIT = 120;
 	public static void main(String[] args) {
 //		varEx();
 //		varEx();
 //		integerEx();
 //		floatDoubleEx();
 //		booleanEx();
-		charEx();
+//		charEx();
+		constantEx();
 	}
+	
+	//	상수
+	private static void constantEx() {
+//		final int SPEED_LIMIT = 120;
+
+		System.out.println("제한속도:" + SPEED_LIMIT);
+		System.out.println("현재 도로의 제한 속도는 " + 
+				SPEED_LIMIT + "입니다.");
+		//	코드의 가독성과 코드의 변경이 용이해진다
+
+//		SPEED_LIMIT = 160;	//	변경 시도 불가(final)
+		System.out.println("제한속도:" + SPEED_LIMIT);
+		System.out.println("현재 도로의 제한 속도는 " + 
+				SPEED_LIMIT + "입니다.");
+
+	}
+	
 	//	문자형 데이터 타입
 	private static void charEx() {
 		//	부호가 없는 정수 코드
