@@ -21,7 +21,7 @@ public class EnumEx {
 
 		System.out.printf("%s, %d",
 		System.out.printf("%s,, %d%n",
-			obj.name(), obj.ordinal()); // 왜 ERROR???
+			obj.name(), obj.ordinal())); // 왜 ERROR???
 		
 		System.out.printf("%s와 %s의 순번차: %d%n",
 				today.name(), obj.name(), today.compareTo(obj));

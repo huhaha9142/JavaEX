@@ -7,7 +7,7 @@ public class HRSearchEmployee {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-
+		String dburl = "jdbc:oracle:thin:@localhost:1521:xe";
 		Connection conn = null;
 		Statement stmt = null;
 		ResultSet rs = null;
